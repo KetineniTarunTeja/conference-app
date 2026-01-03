@@ -1,18 +1,31 @@
-# Salesforce DX Project: Next Steps
+# Conference App
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Salesforce Conference App – Speaker Manager
 
-## How Do You Plan to Deploy Your Changes?
+## Overview
+This project is a Salesforce Conference Management application that allows users to:
+- Search speakers by name and speciality
+- Check speaker availability for sessions
+- Prevent overlapping session assignments
+- Assign speakers to sessions safely
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## Features
+- Bulk-safe Apex trigger for conflict detection
+- Container-based Lightning Web Component architecture
+- Speaker search and filtering
+- Session availability validation
+- Conference App with Speaker Manager tab
 
-## Configure Your Salesforce DX Project
+## Technology Stack
+- Salesforce Apex
+- Lightning Web Components (LWC)
+- Salesforce DX (SFDX)
+- GitHub
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## Deployment
+- Deployed to Salesforce Developer Edition
+- Lightning App: Conference App
+- LWC Page: Speaker Manager
 
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+## Author
+Ketineni Tarun Teja
