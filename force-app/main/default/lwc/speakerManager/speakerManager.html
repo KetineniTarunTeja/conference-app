@@ -1,0 +1,21 @@
+<template>
+    <div class="app-wrapper">
+
+        <lightning-layout multiple-rows>
+
+            <lightning-layout-item size="6" padding="around-medium">
+                <c-speaker-search
+                    onselectspeaker={handleSpeakerSelect}>
+                </c-speaker-search>
+            </lightning-layout-item>
+
+            <lightning-layout-item size="6" padding="around-medium">
+                <c-book-session
+                    speaker={selectedSpeaker}>
+                </c-book-session>
+            </lightning-layout-item>
+
+        </lightning-layout>
+
+    </div>
+</template>

@@ -1,0 +1,26 @@
+<template>
+<lightning-card title="Speaker Explorer" icon-name="standard:user" class="card">
+    <div class="slds-p-around_medium">
+
+        <lightning-input
+            label="Search by Name"
+            placeholder="Type speaker name"
+            class="slds-m-bottom_small"
+            onchange={handleName}>
+        </lightning-input>
+
+        <lightning-combobox
+            label="Speciality"
+            placeholder="Select speciality"
+            class="slds-m-bottom_medium"
+            options={specialityOptions}
+            onchange={handleSpeciality}>
+        </lightning-combobox>
+
+        <c-speaker-list
+            speakers={speakers}>
+        </c-speaker-list>
+
+    </div>
+</lightning-card>
+</template>

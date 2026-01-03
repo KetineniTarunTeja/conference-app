@@ -1,0 +1,13 @@
+.custom-container{
+	color : black;
+}
+.page-container {
+    background-color: #f3f3f3;
+    padding: 1rem;
+    min-height: 100vh;
+}
+.app-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;          /* centers the app */
+    padding-top: 1rem;
+}

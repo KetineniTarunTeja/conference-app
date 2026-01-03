@@ -1,0 +1,15 @@
+<template>
+    <lightning-datatable
+        key-field="Id"
+        data={speakers}
+        columns={columns}
+        hide-checkbox-column
+        onrowaction={handleRowAction}>
+    </lightning-datatable>
+
+    <template if:true={isEmpty}>
+        <p class="slds-text-color_weak slds-m-top_medium">
+            No speakers found
+        </p>
+    </template>
+</template>

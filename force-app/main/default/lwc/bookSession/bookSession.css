@@ -1,0 +1,42 @@
+.card {
+    border-radius: 14px;
+}
+
+/* Empty state */
+.empty-state {
+    text-align: center;
+    color: #7a7a7a;
+    padding: 2rem 0;
+}
+
+/* Info box */
+.info-box {
+    background: #f9fafb;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+/* Row */
+.info-row {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+/* Labels */
+.label {
+    width: 90px;
+    font-weight: 600;
+    color: #444;
+}
+
+/* Values */
+.value {
+    color: #555;
+}
+
+/* Divider */
+.divider {
+    height: 1px;
+    background: #e5e5e5;
+    margin: 1rem 0;
+}
